@@ -37,7 +37,19 @@ body, html {
     margin-block-end: 2.33em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    
+	
+.hero-text h3{
+    /* This section adds the text stylings for the h3 text in your hero block */
+    text-align: left; 
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1;
+	display: block;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
   }
 
 .textblock {
@@ -54,13 +66,7 @@ body, html {
     line-height: 1.5;
   }
 
-.textblock h3 {
-    /* This section lets you adject the h3 heading style for text in the .textblock div/ */
-    text-align: left; 
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 1;
-  }
+
 
 .textblock p {
     /* This section lets you adjust the text style for your paragraph element text in the textblock div. */
