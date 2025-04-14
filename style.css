@@ -41,14 +41,13 @@ body, html {
 .hero-text h3{
     /* This section adds the text stylings for the h3 text in your hero block */
     text-align: left; 
-    font-size: 1em;
+    font-size: 0.67em;
     font-weight: bold;
-    line-height: 1;
 	display: block;
-    margin-block-start: 2.33em;
-    margin-block-end: 2.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
   }
   }
 
