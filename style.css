@@ -233,6 +233,12 @@ The following CSS is responsible for your photo grid .row, .column, .column img 
     padding: 0 4px;
     justify-content: center;
 }
+.pageRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: left;
+}
 
 /* Create 3 equal columns that sit next to each other */
 .column {
@@ -240,13 +246,7 @@ The following CSS is responsible for your photo grid .row, .column, .column img 
     max-width: 25%;
     padding: 0 4px;
 }
-.pageColumn {
-    flex: 50%;
-    width: 70%;
-    padding: 0 4px;
-    justify-content: left;
-	
-}
+
 .column img {
     margin-top: 8px;
     vertical-align: middle;
