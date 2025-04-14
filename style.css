@@ -54,6 +54,14 @@ body, html {
     line-height: 1.5;
   }
 
+.textblock h3 {
+    /* This section lets you adject the h3 heading style for text in the .textblock div/ */
+    text-align: left; 
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1;
+  }
+
 .textblock p {
     /* This section lets you adjust the text style for your paragraph element text in the textblock div. */
     
