@@ -242,7 +242,7 @@ The following CSS is responsible for your photo grid .row, .column, .column img 
 }
 .pageColumn {
     flex: 50%;
-    max-width: 70%;
+    width: 70%;
     padding: 0 4px;
     justify-content: left;
 	
