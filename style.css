@@ -43,7 +43,7 @@ body, html {
 .textblock h3{
     /* This section adds the text stylings for the h3 text in your hero block */
     text-align: left; 
-    font-size: 0.67em;
+    font-size: 2em;
     font-weight: bold;
     color: white;
 		display: block;
