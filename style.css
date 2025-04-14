@@ -240,7 +240,12 @@ The following CSS is responsible for your photo grid .row, .column, .column img 
     padding: 0 4px;
     justify-content: left;
 }
-
+.pageColumn {
+    flex: 25%;
+    max-width: 25%;
+    min-width: 10%;
+    padding: 0 4px;
+}
 /* Create 3 equal columns that sit next to each other */
 .column {
     flex: 25%;
