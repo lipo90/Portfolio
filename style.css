@@ -245,7 +245,7 @@ The following CSS is responsible for your photo grid .row, .column, .column img 
 .column {
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 20px;
 }
 
 .column img {
