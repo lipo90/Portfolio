@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!--browser tab title-->
+<title>Lilly Poon's Website</title>
+
+<!--favicon -->
+ <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+ 
+<!--this next section of code does important work to help different browsers understand what this page should look like on the different kinds of screens.-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Next is a link to the cascading style sheet or CSS file. Web designers use a cascading stylesheet CSS to add styling to a website. Designers do this by "calling" a <div class> in HTML and defining the class attributes on the style sheet. Doing so saves time and results in less code. On the style.css page you'll find attributes relating to font, text size, image size, among other details.-->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--The <body> of the document houses the content that a user usually sees on a website. We'll be spending most of our time in this section.-->
+<body>
+
+<!-- We'll need to do some more work in this section, but to do so, we'll need to make some changes on your style.css file. Developers refer to this division as a "Hero Block," but we will refer to it as a "Wide Image."  Think carefully about the image you select and how it might serve a sybolic function in your life. Ulmer refers to these kinds of symbolic images as "wide images" in that they often repeat over and over in our lifetime. We will similarly repeat this image at the end of your Electrate Infuego composition to establish a motif in this web document.-->
+
+<!--The hero image is controlled on the style.css page. To replace this image, simply place a .jpg file in the same file folder (directory) as this project and name it hero.jpg. Alternatively, if you are working with a .png, you will need to open the style.css file using your text editor, and change the file type from .jpg to .png. Browsers will only work with .jpg, .jpeg, or .png imgaes. Since hero images need to stretch across the screen, typically you will want to select an image 1200px in width to allow quick load time yet avoid pixilation.-->
+
+<div class="hero-image">
+  <div class="hero-text">
+<!--Page title-->
+      <h1>I am Lilly Poon</h1>
+      <h2>And I am a Freshman at Pitt</h2>
+  </div>
+</div>
+<div class="textblock">
+  <h2>Introduction</h2>
+  <p>Hi! I'm Lilly Poon and I am a freshman at Pitt intending on majoring in computer engineering. I have some proficiency in the programming languages java and python. I was raised in Emmaus, Pennsylvania by my mother and older sister. In the photo below on the right side, is my sister, my mother, and me from left to right. Yes, my sister was not paying attention when I took this photo. And Yes, I did not take another one. Continuing on, in elementary school, my mother brought my sister and I to a church. This church would be the church I would spend much time volunteering and learning at and would get baptized in August of 2021. I'm still Christian today as a result of my church's longstanding love and care for my family and I. </p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="20221006_144331.jpg" alt="3 kittens, one is eating">
+   </div>
+  
+  <div class="column">
+    <img src="20220416_NYC Trip.jpg" alt="From left to right, my sister, my mother, and me taking the photo in NYC resting on a bench after a long walk around. ">
+  </div>
+</div>
+
+<div class="textblock">
+  <h2>Aspirations</h2>
+  <p>I want to learn Mandarin, Cantonese, Spanish, Korean, and maybe more. I want to attempt to make a game over the course of my time in college. I'm very excited to learn both in class and outside of class. I interested in learning about robotics, AI, how materials impact code, and how to be more sustainable in this planet we live on. </p>
+</div>
+
+
+
+<img src="Lantern photo 2024_08_25.jpg" alt="Lantern night selfie" class="center-img"  style="max-width:100%; max-height:100%;">
+
+</div>
+<!--in this next section you will explain a little more about your family (what does family means to you? Who are the people that influenced you on this path along which you now stand).-->
+
+<div class="textblock">
+  <h2>Hobbies and Interests</h2>
+    
+
+<!--photo grid-->
+
+
+<div class="row">
+  <div class="column">
+    <img src="modded Minecraft 2024-10-07_22.30.30.png" alt="Lilly's player character in a modded world">
+    <img src="2021123_Hike To the top.jpg" alt="Lilly hiked up a mountain with family and friends">
+  </div>
+
+  <div class="column">
+    <img src="20240816_MeAndTheTreeIPlanted.jpg" alt="Lilly squating next to tree she planted near Peterson Sports Complex for Provost Academy 2024">
+    <img src="20200207_rat trio.png" alt="Two small origami rats and one larger origami rat, a rat family :)">
+  </div>
+</div>
+
+
+<!-- body paragraph -->
+
+  <p>My hobbies include hiking, Minecraft, games, crochet, cello, and origami.
+  I'm interested in hardware, programming, game development, and psychology. </p>
+
+</div>
+
+
+
+
+    <!--To change the image for this wide screen paralax scroll, you will need change the file name in your style.css to match an image in your project folder. Look for ".paral1ax" on your style.css sheet-->
+
+<div class="parallax">
+
+<!--What happens if you put another div inside this parallax section? Get rid of the comment notation to find out!
+
+<div class="textblock">
+  <h2 style="color: white;">Lorem Ipsum</h2> 
+  <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+  </div>
+  
+  
+  note the "style="color: white;"" in the parallax section. How would this look if we kept up the standard "textblock" style? Try it out by erasing the "style="color: white;""-->
+
+<!--You could set up your whole site with parallax sections if you wanted. Try and wrap another div in parralax. Or just add a heading and paragraph element inside the parallax div to see what you'll get. It's important to experiment. -->
+
+</div>
+
+  <div id="logo">
+            <img src="cats.png" alt="two orange cats on a shed roof" style="max-width:25%;max-height:25%;">
+            <p><b>generated by <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">Pitt Fuego</a></b></p>
+            <p><em>Why make a spark when you can light a fire?</em></p>
+            
+  </div>
+
+
+
+  </body>
+     </html>
+
+
+
+
+
+
+
+     <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class properties on style.css.
+
+
+     ***Add Text Block***
+
+          (tip for composing longer content: replace <h2> with <p> and <p> for <p>)
+
+     <div class="textblock">
+         <h2>Header</h2>
+         <p>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </div>
+
+
+
+     ***Add Block Quote***
+
+     (Format text: Italics: <em>italics</em>; Bold: <b>bold</b>. For more stylings, find blockquote class on style.css)
+
+     <div class="blockquote" style="text-align: center">
+         <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+     </div>
+
+
+
+     ***Add Bulleted Points to Textblock***
+
+     (Change <ul></ul> to <ol></ol> to change from unordered list to ordered list. For more stylings, find the ul/li classes on style.css)
+
+     <div class= "ul">
+             <li>first</li>
+             <li>second</li>
+             <li>third</li>
+     </div>
+
+     -or- (try a nested list)
+
+     <div class="ul">
+         <li>Coffee</li>
+         <li>Tea
+           <ul>
+             <li>Black tea</li>
+             <li>Green tea</li>
+           </ul>
+          </li>
+         <li>Milk</li>
+      </div>
+
+
+
+      ***Add a Button***
+
+      (Clearly label button for accessibility purposes. If this is not possible, include: aria-label=?label for accessibility purposes.? For more stylings, find button class on style.css)
+
+      <div class="buttonbox">
+         <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/" class="button" aria-label="">Button</a>
+      </div>
+
+
+
+
+     ***Embed YouTube Video***
+
+     <div class="video">
+      <div class="video-container">
+        <<iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+     </div>
+       <p>Add a caption.</p>
+     </div>
+
+
+
+     ***Add a Standard Image***
+
+     (Control image properties with inline width value.)
+
+     <img src="cats.png" alt="describe the image HERE for accessibility purposes" style="width:30%;" class="center-img">
+     <p style="text-align: center"><em>Add a caption.</em></p>
+
+
+
+     ***Add Image Block with Padding and Caption*** (Control image properties with inline width value.)
+
+     <div class="imgageblock">
+         <img src="cats.png" alt="describe the image HERE for accessibility purposes" style="width:100%;">
+          <p style="text-align: center"><em>Add a caption.</em></p>
+     </div>
+
+
+
+     ***Add a Photo Grid***
+
+     <div class="photogrid">
+     <div class="row">
+         <div class="column">
+             <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+         <div class="column">
+             <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+         <div class="column">
+             <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+     </div>
+         <p><em>Add a caption.</em></p>
+     </div>
+
+
+
+     ***Add a Parallax Window***
+
+     (To adjust window, find parallax class on style.css)
+
+     <div class="parallax"></div>
+
+
+
+     ***Add a Copyright Footer***
+
+     <div id="footer">
+       <p>Copyright Your Name, Year.</p>
+     </div>
+
+
+
+
+     ***Need something that's not here? go to w3 Schools***
+
+
+
+     Looking to publish this webtext in GitHub? Here are your next steps:
+
+     Sign in to GitHub. Create a new repository. Name it. Click ?uploading an existing file,? then select/drag and drop all of your files... all of them, index.html. style.css, readme, and your image assets. Click "commit." Now go to your repository "settings." Scroll down to "Pages." Here you will change "source" from "none" to "main" branch. This will publish your webtext online. Copy your URL from this settings page...and now it's time to circulate your webtext! Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.
+     
+     Modified and adapted by Steven LeMieux, University of Pittsburgh, 2024-->
