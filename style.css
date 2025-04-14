@@ -240,7 +240,11 @@ The following CSS is responsible for your photo grid .row, .column, .column img 
     max-width: 25%;
     padding: 0 4px;
 }
-
+.pageColumn {
+    flex: 15%;
+    max-width: 15%;
+    padding: 0 4px;
+}
 .column img {
     margin-top: 8px;
     vertical-align: middle;
